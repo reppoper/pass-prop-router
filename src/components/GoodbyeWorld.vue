@@ -15,7 +15,9 @@ export default {
       debugInc: 0,
       message: this.msg,
     };
-
-  }
+  },
+   mounted() {
+    console.log(this.message)
+ }
 };
 </script>
